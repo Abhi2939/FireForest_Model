@@ -18,8 +18,6 @@ def analyze_fire(image_path):
     fire_event["longitude"],
     fire_event["confidence"]
 ]
-
-
     severity = compute_severity(features)
 
     radius = compute_spread_radius(
